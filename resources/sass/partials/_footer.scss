@@ -1,0 +1,36 @@
+footer {
+  padding: 70px 0 30px;
+  color: #fff;
+  background-color: $colore_primario;
+
+  .footer-top {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #fff;
+
+    .links {
+      text-align: right;
+
+      a:hover {
+        color: $colore_secondario;
+      }
+    }
+  }
+  .footer-bottom {
+    .social {
+      padding: 20px 0;
+      font-size: 40px;
+
+      li {
+        padding: 0 20px;
+        display: inline-block;
+      }
+    }
+  }
+
+  .address {
+    font-size: 16px;
+    span {
+      display: block;
+    }
+  }
+}

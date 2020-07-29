@@ -1,0 +1,21 @@
+main {
+  h1 {
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  ul {
+    margin: 30px auto;
+    padding: inherit;
+    list-style-type: inherit;
+  }
+  section {
+    ul {
+      padding-left: 50px;
+    }
+  }
+  .gif {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+  }
+}

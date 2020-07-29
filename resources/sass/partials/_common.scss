@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: $colore_primario;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.section {
+  padding: 50px 0;
+}
+
+.logo {
+  width: 150px;
+}

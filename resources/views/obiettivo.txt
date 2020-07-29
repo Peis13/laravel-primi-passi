@@ -1,0 +1,8 @@
+Creiamo un layout base da estendere in due pagine del nostro sito. Nel layout includiamo un nostro header e un footer
+
+Per la prima pagina ispiriamoci all’homepage del sito Booleans https://www.boolean.careers/ che conterrà un paio di sezioni a vostra scelta.
+Per la seconda pagina ispiriamoci alla pagina privacy policy del sito Boolean https://www.boolean.careers/privacy-policy
+
+Consigli:
+	- utilizziamo le funzionalità include e yield per creare un layout condiviso
+	- I template non devono essere pixel perfect, l’obiettivo dell’esercizio è prendere confidenza con blade e con le sue peculiarità
