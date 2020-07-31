@@ -18,4 +18,39 @@ main {
     margin: auto;
     margin-top: 50px;
   }
+  #intro {
+    .intro {
+      padding: 0 80px;
+    }
+  }
+  #faq {
+    .visualizza-faq {
+      float: right;
+      font-size: 40px;
+      font-weight: bold;
+      cursor: pointer;
+      line-height: 0.5;
+    }
+    h4 {
+      margin-bottom: 30px;
+    }
+    .prima,
+    .dopo {
+      padding: 50px 80px;
+
+      .domanda {
+        padding: 20px 0;
+      }
+      .risposta {
+        display: none;
+      }
+    }
+    .prima {
+      background-color: $bg_primario;
+    }
+    .dopo {
+      color: #fff;
+      background-color: $bg_secondario;
+    }
+  }
 }

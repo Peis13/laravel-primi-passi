@@ -10981,6 +10981,46 @@ main .gif {
   margin-top: 50px;
 }
 
+main #intro .intro {
+  padding: 0 80px;
+}
+
+main #faq .visualizza-faq {
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  line-height: 0.5;
+}
+
+main #faq h4 {
+  margin-bottom: 30px;
+}
+
+main #faq .prima,
+main #faq .dopo {
+  padding: 50px 80px;
+}
+
+main #faq .prima .domanda,
+main #faq .dopo .domanda {
+  padding: 20px 0;
+}
+
+main #faq .prima .risposta,
+main #faq .dopo .risposta {
+  display: none;
+}
+
+main #faq .prima {
+  background-color: #e8ebf1;
+}
+
+main #faq .dopo {
+  color: #fff;
+  background-color: #1b3c59;
+}
+
 footer {
   padding: 70px 0 30px;
   color: #fff;

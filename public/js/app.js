@@ -37284,7 +37284,17 @@ __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 var $ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 
-$(document).ready(function () {// alert('test');
+$(document).ready(function () {
+  $('.domanda').click(function () {
+    var attrDomanda = $(this).attr('data-index');
+    $(this).siblings('.risposta').each(function () {
+      if ($(this).attr('data-index') === attrDomanda) {
+        $(this).slideToggle();
+      } else {
+        $(this).slideUp();
+      }
+    });
+  });
 });
 
 /***/ }),

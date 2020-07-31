@@ -14,7 +14,11 @@
     @include('partials/header')
     {{-- FINE HEADER --}}
 
-    @yield('content')
+    {{-- MAIN --}}
+    <main>
+      @yield('content')
+    </main>
+    {{-- FINE MAIN --}}
 
     {{-- FOOTER --}}
     @include('partials/footer')
